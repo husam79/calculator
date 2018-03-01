@@ -49,9 +49,10 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
+
             <Button
                 style="@style/ButtonStyle"
-                android:onClick="sqClicked"
+                android:onClick="minusFlipClicked"
                 android:text="-/+" />
 
             <Button
@@ -67,7 +68,7 @@
             <Button
                 style="@style/ButtonStyle"
                 android:onClick="divisionClicked"
-                android:text="DIV" />
+                android:text="/" />
 
 
         </LinearLayout>
